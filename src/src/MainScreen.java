@@ -1,6 +1,6 @@
 package src;
 
-import password.generator.PasswordGenerator;
+
 /**
  *
  * @author DEVINDA
@@ -13,7 +13,6 @@ public class MainScreen extends javax.swing.JFrame {
         
     }
     
-    PasswordGenerator pswGen ;
     
 
     @SuppressWarnings("unchecked")
@@ -352,9 +351,9 @@ public class MainScreen extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPanel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseClicked
-        pswGen = new PasswordGenerator();
+       
         int value = jSlider1.getValue();
-        String pass = pswGen.generateSecurePassword(value,4,2,2 );
+        String pass = "Hello";
         passText.setText(pass);
     }//GEN-LAST:event_jPanel3MouseClicked
 
