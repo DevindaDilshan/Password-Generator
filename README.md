@@ -1,5 +1,7 @@
 # Password Generator
 
-![Splash](src/src/Img/Splash.png)<br><br>
+Java/Swing application 
+
+Generate 8 - 30 length passwords
 
 ![Main](src/src/Img/Main.png)
